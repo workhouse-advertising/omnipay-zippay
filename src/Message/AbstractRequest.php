@@ -10,8 +10,8 @@ use Omnipay\Common\Message\AbstractRequest as BaseAbstractRequest;
  */
 abstract class AbstractRequest extends BaseAbstractRequest
 {
-    protected $liveEndpoint = 'https://api.zipmoney.com.au/merchant/v1';
-    protected $testEndpoint = 'https://api.sandbox.zipmoney.com.au/merchant/v1';
+    protected $liveEndpoint = 'https://merchant-api.com/au/merchant/v2';
+    protected $testEndpoint = 'https://sand.merchant-api.com/au/merchant/v2';
 
     protected $negativeAmountAllowed = true;
 

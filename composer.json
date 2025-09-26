@@ -1,5 +1,5 @@
 {
-    "name": "ignited/omnipay-zippay",
+    "name": "workhouse-advertising/omnipay-zippay",
     "description": "Provides ZipPay support for Omnipay payment processing library",
     "keywords": [
         "omnipay",
@@ -12,6 +12,10 @@
         {
             "name": "Daniel Condie",
             "email": "daniel@ignitedlabs.com.au"
+        },
+        {
+            "name": "Simon Geoghegan",
+            "email": "simon@workhouseadvertising.com.au"
         }
     ],
     "require": {
